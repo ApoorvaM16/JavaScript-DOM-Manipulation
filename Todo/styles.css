@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: url(/Todo/bg.jpg) no-repeat center center/ cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 40vw;
+    height:50vh;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.input-container{
+    padding: 2rem 2rem;
+    display: flex
+}
+
+#input-task{
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    flex:5;
+    border-radius: 10px;
+    border: 2px solid rgb(141, 61, 141);
+    font-weight: 500;
+}
+
+#add-task{
+    font-size: 2rem;
+    padding: 8px 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid green;
+    color: green;
+    margin-left: 1.2rem;
+    transition: .3s;
+}
+
+#add-task:hover{
+    color: white;
+    background: green;
+    cursor: pointer;
+}
+
+
+
+.task{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid purple; 
+    color: purple;
+}
+
+.task li{
+    list-style: none;
+    font-size: 1.4rem;
+    flex:4;
+}
+
+.checkButton{
+    font-size: 1.2rem;
+    padding: 4px 6px;
+    border-radius: 6px;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    margin-right: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.checkButton:hover{
+    color: white;
+    border: blueviolet;
+    background-color: blueviolet;
+}
+
+.deleteButton{
+    font-size: 1.2rem;
+    padding: 4px 6px;
+    border-radius: 6px;
+    color: rgb(190, 19, 19);
+    border: 2px solid rgb(190, 19, 19);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.deleteButton:hover{
+    color: white;
+    border: 2px solid rgb(190, 19, 19);
+    background-color: rgb(190, 19, 19);
+}
